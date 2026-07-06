@@ -22,7 +22,6 @@ npm install npm@latest -g
 1. Clone the repository
    ```sh
    git clone https://github.com/jaws-1684/w
-.git
    ```
 2. Navigate into the project directory
    ```sh
