@@ -48,7 +48,7 @@ npm test
 ```
 ---
 ## Examples
-``` sh
+``` javascript
 import * as w from "./base.ts";
 import type { Infer } from "./types/types.index";
 
@@ -62,15 +62,15 @@ const user = userSchema.parse({
     email: "x@email.com"
 });
 // const user: ObjectOutput<{
- username: WString;
- email: WEmail;
-}>
+ // username: WString;
+ // email: WEmail;
+//}>
 
 type User = Infer<typeof userSchema>;
 // type User = {} & {
- username: string;
- email: string;
-}
+ // username: string;
+ // email: string;
+//}
 ```
 
 ## Contributing
